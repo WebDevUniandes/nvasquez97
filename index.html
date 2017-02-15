@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nicolás Vásquez</title>
+	<script src="Jaspt.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">	
+	<link rel="icon" type="image/png" href="http://pbs.twimg.com/profile_images/459149320889987072/qv8j5HvG_normal.jpeg">
+	<script src="https://use.fontawesome.com/c130fc509f.js"></script>
+</head>
+<body>
+	<!-- TODO -->
+	<div class="row todo" id="row1">
+		<!-- Navbar Izquiera -->
+		<div class="col-md-2 lado-i navbar navbar-fixed-left">
+			<hr>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<i class="fa fa-chevron-down"></i>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<div class="row" id="row1">
+					<ul class="nav navbar-nav" >
+						<li>
+							<a class="pad" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Principal</a>
+						</li>
+						<li >
+							<a class="pad" href="hobbies.html"><i class="fa fa-telegram" aria-hidden="true"></i> Hobbies</a>
+						</li>
+						<li >
+							<a class="pad" href="aboutme.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About Me</a>
+						</li>
+						<li >
+							<a class="pad" href="varios.html"><i class="fa fa-plane" aria-hidden="true"> </i> Varios</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<!-- Navegacion/Contenido -->
+		<div class="col-md-8 container">
+			<div class="jumbotron titulo">
+				<img src="imgs/prin.jpg" class="img-rounded">
+				<h1>Welcome!</h1>
+			</div>
+			<hr>
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="Est">
+							<h2 class="titulo"><i class="fa fa-address-book"></i> Me </h2>
+							<p>
+								Nicolás Vásquez Murcia
+								<br>
+								May 30th of 1997
+								<br>
+							</p>
+							<p class="foot">Bogotá D.C.</p>
+						</div>
+						<div class="Uimg">
+							<img src="imgs/col.png" class="img-responsive abajo img-rounded" alt="Me">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="Est">
+							<h2 class="titulo"><i class="fa fa-list-ol"></i> What I like </h2>
+							<ol class="fontList">
+								<li>
+									<p class="lists">Sports</p>
+								</li>
+								<li>
+									<p class="lists">Logic problems</p>
+								</li>
+								<li>
+									<p class="lists">Eating</p>
+								</li>
+								<p class="foot lists" >Programming</p>
+							</ol>
+						</div>
+						<div class="Uimg">
+							<img src="imgs/vario.jpg" class="img-responsive abajo img-rounded" alt="Fun">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 random">						
+						<div class="Est">
+							<h2 class="titulo randomh"><i class="fa fa-random"></i> Random</h2>
+							<p class="randomtxt"> Have fun! This is my first HTML page</p>
+							<p class="foot">Click &nbsp; 
+								<i class="fa fa-arrow-right"></i>
+								<button onClick="onClickRandomBtn()"class="btn btn-danger randombt"><i class="fa fa-random"></i></button>
+							</p>
+						</div>
+						<div class="Uimg">
+							<img src="imgs/fun.jpg" class="img-responsive randomimg abajo img-rounded" alt="Fun">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="Est">
+							<h2 class="titulo"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Studies</h2>
+							<p>Ingeniería de Sistemas e
+								<br>
+								Ingeniería Industrial
+							</p>
+							<p class="foot">
+								Universidad de los Andes
+							</p>
+						</div>
+						<div class="Uimg">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/University_of_Los_Andes_logo.svg/220px-University_of_Los_Andes_logo.svg.png" alt="Logo Andes" class="img-responsive img-rounded abajo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Navbar Derecha -->
+		<div class="col-md-2 lado-d navbar navbar-fixed-right">
+			<hr>
+			<div class="row">
+				<img src="imgs/prof.jpeg" alt="Profile" class="img-responsive img-circle center-block">			
+				<p class="derecha">Nicolás Vásquez Murcia
+					<br>
+					Web Developement 2017-1
+					<br>
+					Universidad de los Andes
+				</p>
+			</div>
+			<hr>
+			<button title="Contact Me" type="button" class="btn btn-default" data-toggle="collapse" data-target="#drop">
+				<strong>@</strong>
+			</button>
+			<div class="collapse iconos" id="drop">
+				<span>
+					<a title="Google+" href="https://plus.google.com/111336592440840684483">
+						<i class="fa fa-google-plus" aria-hidden="true"></i>
+					</a>
+				</span>
+				<span>
+					<a title="Facebook" href="https://www.facebook.com/nicolas.vasquez.77128261">
+						<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					</a>
+				</span>
+				<span>
+					<a title="Twitter" href="https://twitter.com/NicolasVasq">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</span>
+				<span>
+					<a title="Github" href="https://github.com/nvasquez97">
+						<i class="fa fa-github" aria-hidden="true"></i>
+					</a>
+				</span>
+				<span>
+					<a href="https://www.linkedin.com/in/nicol%C3%A1s-v%C3%A1squez-42055b8a/" title="LinkedIn">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</span>	
+			</div>
+		</div>
+	</div>
+</body>
+</html>
