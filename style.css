@@ -1,0 +1,116 @@
+.col-md-2{
+	color: rgb(200, 200, 200);
+	height:100%;
+}
+
+a{
+	color:white;
+}
+.navbar-default
+{
+	background-color:rgb(100, 100, 100);
+}
+.lado-d{
+	background-color:rgba(10, 64, 154, 0.9);
+	color: rgb(255, 255, 255);
+}
+.lado-d>p{
+	text-align: right;
+}
+.lado-i{
+	background-color: rgba(56,56,56,0.9);
+}
+.inline{
+	display: inline-block;
+}
+
+button.btn.btn-default{
+	float:right;
+}
+
+#row1{
+	margin-right: 0;
+}
+
+.todo { 
+	background: url(imgs/html.png) no-repeat center center fixed; 
+	background-size: cover;
+	height: -webkit-fill-available;
+}
+
+img{
+	text-align: center;
+}
+p.derecha{
+	text-align: center;
+}
+
+.titulo{
+	display:block;
+}
+.titulo>img{
+	float:right;
+	max-height: 125px;
+}
+.titulo>h1
+{
+	color:rgb(10,64,154);
+
+	position: relative;	
+}
+
+.nav>li>a.pad{
+	padding-left: 15px;
+	color:white;
+}
+.iconos{
+	text-align: center;
+}
+.Est{
+	width: 70%;
+	float:left;
+}
+.EstC{
+	width: 80%;
+	float:left;
+}
+.EstA{
+	width: 50%;
+	float:left;
+}
+.Uimg{
+	float:right;
+	width:20%;
+}
+.UimgA{
+	float:right;
+	width:40%;
+}
+.foot{
+	font-style: italic;
+	text-align: center;
+}
+.abajo{
+	padding-top: 20%;
+}
+h2.titulo{
+	color:rgb(10,64,154);
+}
+.random:hover{
+	border-color: rgb(10,64,154);
+	border-style: solid;
+}
+
+.fontList{
+	font-size: 21px;
+	color:rgb(10,64,154);
+	padding-right: 0;
+}
+p.lists{
+	color:rgb(51,51,51);
+	font-weight:bold;
+}
+
+a.list:hover{
+	color:rgb(10,64,154);	
+}
